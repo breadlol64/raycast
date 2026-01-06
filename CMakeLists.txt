@@ -7,4 +7,4 @@ find_package(SDL3 REQUIRED)
 
 add_executable(raycast src/main.c)
 
-target_link_libraries(raycast PRIVATE SDL3::SDL3 m imgui)
+target_link_libraries(raycast PRIVATE SDL3::SDL3)
